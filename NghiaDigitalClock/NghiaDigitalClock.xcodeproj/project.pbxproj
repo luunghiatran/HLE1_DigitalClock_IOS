@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48DAB2EA368FD2CC0A38A288 /* Pods_NghiaDigitalClock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A3D245C5EDF87293A014E4 /* Pods_NghiaDigitalClock.framework */; };
+		594646D8228A6258000DB734 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594646D7228A6258000DB734 /* AppDelegate.swift */; };
+		594646DF228A625A000DB734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 594646DE228A625A000DB734 /* Assets.xcassets */; };
+		594646E2228A625A000DB734 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594646E0228A625A000DB734 /* LaunchScreen.storyboard */; };
+		594646EF228A6336000DB734 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594646ED228A6336000DB734 /* HomeViewController.swift */; };
+		594646F0228A6336000DB734 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 594646EE228A6336000DB734 /* HomeViewController.xib */; };
+		594646F7228A68F4000DB734 /* digital-7 (mono italic).ttf in Resources */ = {isa = PBXBuildFile; fileRef = 594646F3228A68F4000DB734 /* digital-7 (mono italic).ttf */; };
+		594646F8228A68F4000DB734 /* digital-7 (italic).ttf in Resources */ = {isa = PBXBuildFile; fileRef = 594646F4228A68F4000DB734 /* digital-7 (italic).ttf */; };
+		594646F9228A68F4000DB734 /* digital-7 (mono).ttf in Resources */ = {isa = PBXBuildFile; fileRef = 594646F5228A68F4000DB734 /* digital-7 (mono).ttf */; };
+		594646FA228A68F4000DB734 /* digital-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 594646F6228A68F4000DB734 /* digital-7.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C55D27739761DFE79D3D1E7 /* Pods-NghiaDigitalClock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NghiaDigitalClock.release.xcconfig"; path = "Target Support Files/Pods-NghiaDigitalClock/Pods-NghiaDigitalClock.release.xcconfig"; sourceTree = "<group>"; };
+		594646D4228A6258000DB734 /* NghiaDigitalClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NghiaDigitalClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		594646D7228A6258000DB734 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		594646DE228A625A000DB734 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		594646E1228A625A000DB734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		594646E3228A625A000DB734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		594646ED228A6336000DB734 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		594646EE228A6336000DB734 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		594646F3228A68F4000DB734 /* digital-7 (mono italic).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7 (mono italic).ttf"; sourceTree = "<group>"; };
+		594646F4228A68F4000DB734 /* digital-7 (italic).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7 (italic).ttf"; sourceTree = "<group>"; };
+		594646F5228A68F4000DB734 /* digital-7 (mono).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7 (mono).ttf"; sourceTree = "<group>"; };
+		594646F6228A68F4000DB734 /* digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7.ttf"; sourceTree = "<group>"; };
+		C0A3D245C5EDF87293A014E4 /* Pods_NghiaDigitalClock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NghiaDigitalClock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6FCFAD560C7862B5AB2D965 /* Pods-NghiaDigitalClock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NghiaDigitalClock.debug.xcconfig"; path = "Target Support Files/Pods-NghiaDigitalClock/Pods-NghiaDigitalClock.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		594646D1228A6258000DB734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48DAB2EA368FD2CC0A38A288 /* Pods_NghiaDigitalClock.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2552590291537DCD6402771F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0A3D245C5EDF87293A014E4 /* Pods_NghiaDigitalClock.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		594646CB228A6258000DB734 = {
+			isa = PBXGroup;
+			children = (
+				594646D6228A6258000DB734 /* NghiaDigitalClock */,
+				594646D5228A6258000DB734 /* Products */,
+				C84C3255685C74227CD1EEAE /* Pods */,
+				2552590291537DCD6402771F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		594646D5228A6258000DB734 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				594646D4228A6258000DB734 /* NghiaDigitalClock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		594646D6228A6258000DB734 /* NghiaDigitalClock */ = {
+			isa = PBXGroup;
+			children = (
+				594646F1228A68D4000DB734 /* Assets */,
+				594646E9228A62F2000DB734 /* ViewControllers */,
+				594646D7228A6258000DB734 /* AppDelegate.swift */,
+				594646DE228A625A000DB734 /* Assets.xcassets */,
+				594646E0228A625A000DB734 /* LaunchScreen.storyboard */,
+				594646E3228A625A000DB734 /* Info.plist */,
+			);
+			path = NghiaDigitalClock;
+			sourceTree = "<group>";
+		};
+		594646E9228A62F2000DB734 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				594646EB228A6308000DB734 /* Base */,
+				594646EA228A62FE000DB734 /* UI */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		594646EA228A62FE000DB734 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				594646EC228A631A000DB734 /* Home */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		594646EB228A6308000DB734 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		594646EC228A631A000DB734 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				594646ED228A6336000DB734 /* HomeViewController.swift */,
+				594646EE228A6336000DB734 /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		594646F1228A68D4000DB734 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				594646F2228A68DD000DB734 /* Fonts */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		594646F2228A68DD000DB734 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				594646F4228A68F4000DB734 /* digital-7 (italic).ttf */,
+				594646F3228A68F4000DB734 /* digital-7 (mono italic).ttf */,
+				594646F5228A68F4000DB734 /* digital-7 (mono).ttf */,
+				594646F6228A68F4000DB734 /* digital-7.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C84C3255685C74227CD1EEAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6FCFAD560C7862B5AB2D965 /* Pods-NghiaDigitalClock.debug.xcconfig */,
+				4C55D27739761DFE79D3D1E7 /* Pods-NghiaDigitalClock.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		594646D3228A6258000DB734 /* NghiaDigitalClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 594646E6228A625A000DB734 /* Build configuration list for PBXNativeTarget "NghiaDigitalClock" */;
+			buildPhases = (
+				3EBE78C09699276286DDC8A2 /* [CP] Check Pods Manifest.lock */,
+				594646D0228A6258000DB734 /* Sources */,
+				594646D1228A6258000DB734 /* Frameworks */,
+				594646D2228A6258000DB734 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NghiaDigitalClock;
+			productName = NghiaDigitalClock;
+			productReference = 594646D4228A6258000DB734 /* NghiaDigitalClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		594646CC228A6258000DB734 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = BTS;
+				TargetAttributes = {
+					594646D3228A6258000DB734 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 594646CF228A6258000DB734 /* Build configuration list for PBXProject "NghiaDigitalClock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 594646CB228A6258000DB734;
+			productRefGroup = 594646D5228A6258000DB734 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				594646D3228A6258000DB734 /* NghiaDigitalClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		594646D2228A6258000DB734 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594646F9228A68F4000DB734 /* digital-7 (mono).ttf in Resources */,
+				594646E2228A625A000DB734 /* LaunchScreen.storyboard in Resources */,
+				594646F8228A68F4000DB734 /* digital-7 (italic).ttf in Resources */,
+				594646FA228A68F4000DB734 /* digital-7.ttf in Resources */,
+				594646F7228A68F4000DB734 /* digital-7 (mono italic).ttf in Resources */,
+				594646DF228A625A000DB734 /* Assets.xcassets in Resources */,
+				594646F0228A6336000DB734 /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EBE78C09699276286DDC8A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NghiaDigitalClock-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		594646D0228A6258000DB734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594646D8228A6258000DB734 /* AppDelegate.swift in Sources */,
+				594646EF228A6336000DB734 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		594646E0228A625A000DB734 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				594646E1228A625A000DB734 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		594646E4228A625A000DB734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		594646E5228A625A000DB734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		594646E7228A625A000DB734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6FCFAD560C7862B5AB2D965 /* Pods-NghiaDigitalClock.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NghiaDigitalClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.NghiaDigitalClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		594646E8228A625A000DB734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C55D27739761DFE79D3D1E7 /* Pods-NghiaDigitalClock.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NghiaDigitalClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.NghiaDigitalClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		594646CF228A6258000DB734 /* Build configuration list for PBXProject "NghiaDigitalClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594646E4228A625A000DB734 /* Debug */,
+				594646E5228A625A000DB734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		594646E6228A625A000DB734 /* Build configuration list for PBXNativeTarget "NghiaDigitalClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594646E7228A625A000DB734 /* Debug */,
+				594646E8228A625A000DB734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 594646CC228A6258000DB734 /* Project object */;
+}
