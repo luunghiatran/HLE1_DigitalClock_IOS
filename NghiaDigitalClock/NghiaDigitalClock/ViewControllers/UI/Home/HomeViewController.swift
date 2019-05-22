@@ -20,7 +20,7 @@ class HomeViewController: UIViewController {
         
         updateUI()
         
-        let timer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { (timer) in
+        Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { (timer) in
             self.updateUI()
         }
     }
@@ -50,6 +50,15 @@ class HomeViewController: UIViewController {
         formater.dateFormat = "MMM dd, yyyy"
         let dateStr = formater.string(from: date)
         dateLabel?.text = "\(dateStr)"
+    }
+    
+    @IBAction func showSetting(_ sender : Any) {
+        let controller = SettingViewController(nibName: "SettingViewController", bundle: nil)
+        let nav = UINavigationController(rootViewController: controller)
+        nav.setViewControllers([controller], animated: true)
+        
+        self.present(nav, animated: true, completion: nil) // use for first Nav VC ==== present - close by Dismiss
+        //self.navigationController?.dismiss(animated: true, completion: nil) // Clear all Stack
     }
     
 

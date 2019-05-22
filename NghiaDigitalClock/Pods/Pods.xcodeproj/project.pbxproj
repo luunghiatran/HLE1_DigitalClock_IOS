@@ -6,11 +6,33 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		7F67C5F2614153DE66A9DBB258437DC7 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A0335762BA853BE787E292D9D7424EE0 /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		0CF3C593671532FF5E4893D9DF76F27C /* Pods-NghiaDigitalClock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84847CC437D871D9EECED8C41F4D1C70 /* Pods-NghiaDigitalClock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		962F38F50C1F485C7FDA2299550CA4B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		EBA7C1357FA931DBAD969A96B82904D0 /* Pods-NghiaDigitalClock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C40D9B0FCB6076ADD81EA32CC6E80769 /* Pods-NghiaDigitalClock-dummy.m */; };
+		83D2E191272243D7CE1C8D08B91D3476 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		84890C781D827121CBE05867408F9A6B /* Pods-NghiaDigitalClock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84847CC437D871D9EECED8C41F4D1C70 /* Pods-NghiaDigitalClock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7C3D09485A080EE0429EC9BA5B1DD9A /* Pods-NghiaDigitalClock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C40D9B0FCB6076ADD81EA32CC6E80769 /* Pods-NghiaDigitalClock-dummy.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A419793DDAE6E98DF329324244F2B85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F67C5F2614153DE66A9DBB258437DC7;
+			remoteInfo = SwiftLint;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -20,6 +42,7 @@
 		607AD7108AAD83A872FE0B7A1D93103E /* Pods_NghiaDigitalClock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NghiaDigitalClock.framework; path = "Pods-NghiaDigitalClock.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F27D1AB35063DC32D704974CC89F9CC /* Pods-NghiaDigitalClock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NghiaDigitalClock.debug.xcconfig"; sourceTree = "<group>"; };
 		84847CC437D871D9EECED8C41F4D1C70 /* Pods-NghiaDigitalClock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NghiaDigitalClock-umbrella.h"; sourceTree = "<group>"; };
+		89F85ACF3D78B39506B75103B4694B36 /* SwiftLint.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F59C0C89357F5760234154298ED99D3 /* Pods-NghiaDigitalClock-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NghiaDigitalClock-acknowledgements.markdown"; sourceTree = "<group>"; };
 		ADB5F068F07F6D181998E01EB6E5E6F2 /* Pods-NghiaDigitalClock-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NghiaDigitalClock-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -27,11 +50,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A689DCCA823A33732A0BFC2190843059 /* Frameworks */ = {
+		42E6A08D8C4925096AA7321851B97DF8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				962F38F50C1F485C7FDA2299550CA4B0 /* Foundation.framework in Frameworks */,
+				83D2E191272243D7CE1C8D08B91D3476 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +93,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		965877409E01FB3D85D85E90E6B30185 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AED61B9A1CFA211C061344F741DBA07 /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9AED61B9A1CFA211C061344F741DBA07 /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				EEA599FE5C15138FF0981CCFB01E55AA /* Support Files */,
+			);
+			name = SwiftLint;
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				965877409E01FB3D85D85E90E6B30185 /* Pods */,
 				4D88DE664E644CDA54D36A5770C1BC9D /* Products */,
 				07A0C226F6190B7973D756C851D72A7A /* Targets Support Files */,
 			);
@@ -96,32 +137,42 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EEA599FE5C15138FF0981CCFB01E55AA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				89F85ACF3D78B39506B75103B4694B36 /* SwiftLint.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		92C77261A0901CE3258FCF8931DDB222 /* Headers */ = {
+		A6244A07C0BA85AF6D5E2B2FBB21A0CF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CF3C593671532FF5E4893D9DF76F27C /* Pods-NghiaDigitalClock-umbrella.h in Headers */,
+				84890C781D827121CBE05867408F9A6B /* Pods-NghiaDigitalClock-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		40E8B0D0874D677B018BF829ABF37266 /* Pods-NghiaDigitalClock */ = {
+		80DD7DA7ACB32945A0AE792574BE286F /* Pods-NghiaDigitalClock */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69362A9689953FFA2FF9B1694CFE47CA /* Build configuration list for PBXNativeTarget "Pods-NghiaDigitalClock" */;
+			buildConfigurationList = 33BD9716792D4721E68A6F83FB2C25FC /* Build configuration list for PBXNativeTarget "Pods-NghiaDigitalClock" */;
 			buildPhases = (
-				92C77261A0901CE3258FCF8931DDB222 /* Headers */,
-				9B9079294C3807B6BE6C61090B650C96 /* Sources */,
-				A689DCCA823A33732A0BFC2190843059 /* Frameworks */,
-				6132B20E50669B7CA9DEB0BAB41F405B /* Resources */,
+				A6244A07C0BA85AF6D5E2B2FBB21A0CF /* Headers */,
+				EAED17D31CFDF5F1794D82EA85FA0C0B /* Sources */,
+				42E6A08D8C4925096AA7321851B97DF8 /* Frameworks */,
+				89B49B36292231253EF1CADF06914BAF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CA23715D7B08A44C37499652BA0D0D0E /* PBXTargetDependency */,
 			);
 			name = "Pods-NghiaDigitalClock";
 			productName = "Pods-NghiaDigitalClock";
@@ -149,13 +200,14 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				40E8B0D0874D677B018BF829ABF37266 /* Pods-NghiaDigitalClock */,
+				80DD7DA7ACB32945A0AE792574BE286F /* Pods-NghiaDigitalClock */,
+				7F67C5F2614153DE66A9DBB258437DC7 /* SwiftLint */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6132B20E50669B7CA9DEB0BAB41F405B /* Resources */ = {
+		89B49B36292231253EF1CADF06914BAF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -165,17 +217,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9B9079294C3807B6BE6C61090B650C96 /* Sources */ = {
+		EAED17D31CFDF5F1794D82EA85FA0C0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBA7C1357FA931DBAD969A96B82904D0 /* Pods-NghiaDigitalClock-dummy.m in Sources */,
+				A7C3D09485A080EE0429EC9BA5B1DD9A /* Pods-NghiaDigitalClock-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		CA23715D7B08A44C37499652BA0D0D0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 7F67C5F2614153DE66A9DBB258437DC7 /* SwiftLint */;
+			targetProxy = 6A419793DDAE6E98DF329324244F2B85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		11A11CA3A0817BF22EBF0F81F6DD260C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89F85ACF3D78B39506B75103B4694B36 /* SwiftLint.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16B284CD0B57B19B99916C6C7C52A259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89F85ACF3D78B39506B75103B4694B36 /* SwiftLint.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		3C73BDAC02BF6A4D61D6D97D384D8842 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -236,45 +330,7 @@
 			};
 			name = Release;
 		};
-		48A25D42A216A9401864327C804352AF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F27D1AB35063DC32D704974CC89F9CC /* Pods-NghiaDigitalClock.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NghiaDigitalClock/Pods-NghiaDigitalClock-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NghiaDigitalClock/Pods-NghiaDigitalClock.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		815571F565FFC167FB4F88F0FA3D89CC /* Release */ = {
+		58BFE1A50A6AD8DE0C9D5F21B0963B30 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 497AD7199053958E20F3D3EF8FF8EDF2 /* Pods-NghiaDigitalClock.release.xcconfig */;
 			buildSettings = {
@@ -377,9 +433,56 @@
 			};
 			name = Debug;
 		};
+		AF4434FBCBDEFE75D5AE7D05FD2D1258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F27D1AB35063DC32D704974CC89F9CC /* Pods-NghiaDigitalClock.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NghiaDigitalClock/Pods-NghiaDigitalClock-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NghiaDigitalClock/Pods-NghiaDigitalClock.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		33BD9716792D4721E68A6F83FB2C25FC /* Build configuration list for PBXNativeTarget "Pods-NghiaDigitalClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4434FBCBDEFE75D5AE7D05FD2D1258 /* Debug */,
+				58BFE1A50A6AD8DE0C9D5F21B0963B30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -389,11 +492,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		69362A9689953FFA2FF9B1694CFE47CA /* Build configuration list for PBXNativeTarget "Pods-NghiaDigitalClock" */ = {
+		A0335762BA853BE787E292D9D7424EE0 /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				48A25D42A216A9401864327C804352AF /* Debug */,
-				815571F565FFC167FB4F88F0FA3D89CC /* Release */,
+				16B284CD0B57B19B99916C6C7C52A259 /* Debug */,
+				11A11CA3A0817BF22EBF0F81F6DD260C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

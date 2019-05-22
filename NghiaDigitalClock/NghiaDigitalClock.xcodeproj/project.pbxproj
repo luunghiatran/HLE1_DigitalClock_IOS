@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		48DAB2EA368FD2CC0A38A288 /* Pods_NghiaDigitalClock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A3D245C5EDF87293A014E4 /* Pods_NghiaDigitalClock.framework */; };
 		594646D8228A6258000DB734 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594646D7228A6258000DB734 /* AppDelegate.swift */; };
-		594646DF228A625A000DB734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 594646DE228A625A000DB734 /* Assets.xcassets */; };
 		594646E2228A625A000DB734 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594646E0228A625A000DB734 /* LaunchScreen.storyboard */; };
 		594646EF228A6336000DB734 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594646ED228A6336000DB734 /* HomeViewController.swift */; };
 		594646F0228A6336000DB734 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 594646EE228A6336000DB734 /* HomeViewController.xib */; };
@@ -17,13 +16,21 @@
 		594646F8228A68F4000DB734 /* digital-7 (italic).ttf in Resources */ = {isa = PBXBuildFile; fileRef = 594646F4228A68F4000DB734 /* digital-7 (italic).ttf */; };
 		594646F9228A68F4000DB734 /* digital-7 (mono).ttf in Resources */ = {isa = PBXBuildFile; fileRef = 594646F5228A68F4000DB734 /* digital-7 (mono).ttf */; };
 		594646FA228A68F4000DB734 /* digital-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 594646F6228A68F4000DB734 /* digital-7.ttf */; };
+		CA05A75A22954BF300DBFE3B /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA05A75922954BF300DBFE3B /* HeaderCell.swift */; };
+		CA05A75C22954C0700DBFE3B /* HeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA05A75B22954C0700DBFE3B /* HeaderCell.xib */; };
+		CA05A75E2295583E00DBFE3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA05A75D2295583E00DBFE3B /* Assets.xcassets */; };
+		CA0A45DE2293A612006E3C1E /* SkinListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0A45DC2293A612006E3C1E /* SkinListViewController.swift */; };
+		CA0A45DF2293A612006E3C1E /* SkinListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA0A45DD2293A612006E3C1E /* SkinListViewController.xib */; };
+		CA0A45E32293A68C006E3C1E /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0A45E12293A68C006E3C1E /* SettingViewController.swift */; };
+		CA0A45E42293A68C006E3C1E /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA0A45E22293A68C006E3C1E /* SettingViewController.xib */; };
+		CA189389229408B500D1F721 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA189387229408B500D1F721 /* MenuCell.swift */; };
+		CA18938A229408B500D1F721 /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA189388229408B500D1F721 /* MenuCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4C55D27739761DFE79D3D1E7 /* Pods-NghiaDigitalClock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NghiaDigitalClock.release.xcconfig"; path = "Target Support Files/Pods-NghiaDigitalClock/Pods-NghiaDigitalClock.release.xcconfig"; sourceTree = "<group>"; };
 		594646D4228A6258000DB734 /* NghiaDigitalClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NghiaDigitalClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		594646D7228A6258000DB734 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		594646DE228A625A000DB734 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		594646E1228A625A000DB734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		594646E3228A625A000DB734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		594646ED228A6336000DB734 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -33,6 +40,15 @@
 		594646F5228A68F4000DB734 /* digital-7 (mono).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7 (mono).ttf"; sourceTree = "<group>"; };
 		594646F6228A68F4000DB734 /* digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7.ttf"; sourceTree = "<group>"; };
 		C0A3D245C5EDF87293A014E4 /* Pods_NghiaDigitalClock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NghiaDigitalClock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA05A75922954BF300DBFE3B /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		CA05A75B22954C0700DBFE3B /* HeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCell.xib; sourceTree = "<group>"; };
+		CA05A75D2295583E00DBFE3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		CA0A45DC2293A612006E3C1E /* SkinListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinListViewController.swift; sourceTree = "<group>"; };
+		CA0A45DD2293A612006E3C1E /* SkinListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SkinListViewController.xib; sourceTree = "<group>"; };
+		CA0A45E12293A68C006E3C1E /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		CA0A45E22293A68C006E3C1E /* SettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
+		CA189387229408B500D1F721 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		CA189388229408B500D1F721 /* MenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuCell.xib; sourceTree = "<group>"; };
 		D6FCFAD560C7862B5AB2D965 /* Pods-NghiaDigitalClock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NghiaDigitalClock.debug.xcconfig"; path = "Target Support Files/Pods-NghiaDigitalClock/Pods-NghiaDigitalClock.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,6 +75,7 @@
 		594646CB228A6258000DB734 = {
 			isa = PBXGroup;
 			children = (
+				CA05A75D2295583E00DBFE3B /* Assets.xcassets */,
 				594646D6228A6258000DB734 /* NghiaDigitalClock */,
 				594646D5228A6258000DB734 /* Products */,
 				C84C3255685C74227CD1EEAE /* Pods */,
@@ -77,10 +94,9 @@
 		594646D6228A6258000DB734 /* NghiaDigitalClock */ = {
 			isa = PBXGroup;
 			children = (
+				CA0A45DA2293A4D7006E3C1E /* AppDelegate */,
 				594646F1228A68D4000DB734 /* Assets */,
 				594646E9228A62F2000DB734 /* ViewControllers */,
-				594646D7228A6258000DB734 /* AppDelegate.swift */,
-				594646DE228A625A000DB734 /* Assets.xcassets */,
 				594646E0228A625A000DB734 /* LaunchScreen.storyboard */,
 				594646E3228A625A000DB734 /* Info.plist */,
 			);
@@ -99,6 +115,8 @@
 		594646EA228A62FE000DB734 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				CA0A45E02293A656006E3C1E /* Setting */,
+				CA0A45DB2293A5F5006E3C1E /* SkinList */,
 				594646EC228A631A000DB734 /* Home */,
 			);
 			path = UI;
@@ -145,8 +163,53 @@
 				D6FCFAD560C7862B5AB2D965 /* Pods-NghiaDigitalClock.debug.xcconfig */,
 				4C55D27739761DFE79D3D1E7 /* Pods-NghiaDigitalClock.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		CA05A7302294EAC300DBFE3B /* HeaderCell */ = {
+			isa = PBXGroup;
+			children = (
+				CA05A75922954BF300DBFE3B /* HeaderCell.swift */,
+				CA05A75B22954C0700DBFE3B /* HeaderCell.xib */,
+			);
+			path = HeaderCell;
+			sourceTree = "<group>";
+		};
+		CA0A45DA2293A4D7006E3C1E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				594646D7228A6258000DB734 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		CA0A45DB2293A5F5006E3C1E /* SkinList */ = {
+			isa = PBXGroup;
+			children = (
+				CA0A45DC2293A612006E3C1E /* SkinListViewController.swift */,
+				CA0A45DD2293A612006E3C1E /* SkinListViewController.xib */,
+			);
+			path = SkinList;
+			sourceTree = "<group>";
+		};
+		CA0A45E02293A656006E3C1E /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				CA05A7302294EAC300DBFE3B /* HeaderCell */,
+				CA1893762293E72A00D1F721 /* MenuCell */,
+				CA0A45E12293A68C006E3C1E /* SettingViewController.swift */,
+				CA0A45E22293A68C006E3C1E /* SettingViewController.xib */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		CA1893762293E72A00D1F721 /* MenuCell */ = {
+			isa = PBXGroup;
+			children = (
+				CA189387229408B500D1F721 /* MenuCell.swift */,
+				CA189388229408B500D1F721 /* MenuCell.xib */,
+			);
+			path = MenuCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,12 +272,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				594646F9228A68F4000DB734 /* digital-7 (mono).ttf in Resources */,
+				CA0A45E42293A68C006E3C1E /* SettingViewController.xib in Resources */,
+				CA05A75E2295583E00DBFE3B /* Assets.xcassets in Resources */,
+				CA18938A229408B500D1F721 /* MenuCell.xib in Resources */,
 				594646E2228A625A000DB734 /* LaunchScreen.storyboard in Resources */,
 				594646F8228A68F4000DB734 /* digital-7 (italic).ttf in Resources */,
+				CA0A45DF2293A612006E3C1E /* SkinListViewController.xib in Resources */,
 				594646FA228A68F4000DB734 /* digital-7.ttf in Resources */,
 				594646F7228A68F4000DB734 /* digital-7 (mono italic).ttf in Resources */,
-				594646DF228A625A000DB734 /* Assets.xcassets in Resources */,
 				594646F0228A6336000DB734 /* HomeViewController.xib in Resources */,
+				CA05A75C22954C0700DBFE3B /* HeaderCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +318,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				594646D8228A6258000DB734 /* AppDelegate.swift in Sources */,
+				CA189389229408B500D1F721 /* MenuCell.swift in Sources */,
+				CA0A45DE2293A612006E3C1E /* SkinListViewController.swift in Sources */,
 				594646EF228A6336000DB734 /* HomeViewController.swift in Sources */,
+				CA05A75A22954BF300DBFE3B /* HeaderCell.swift in Sources */,
+				CA0A45E32293A68C006E3C1E /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

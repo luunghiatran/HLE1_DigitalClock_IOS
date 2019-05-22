@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "40E8B0D0874D677B018BF829ABF37266"
+               BlueprintIdentifier = "80DD7DA7ACB32945A0AE792574BE286F"
                BuildableName = "Pods_NghiaDigitalClock.framework"
                BlueprintName = "Pods-NghiaDigitalClock"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "40E8B0D0874D677B018BF829ABF37266"
+            BlueprintIdentifier = "80DD7DA7ACB32945A0AE792574BE286F"
             BuildableName = "Pods_NghiaDigitalClock.framework"
             BlueprintName = "Pods-NghiaDigitalClock"
             ReferencedContainer = "container:Pods.xcodeproj">
