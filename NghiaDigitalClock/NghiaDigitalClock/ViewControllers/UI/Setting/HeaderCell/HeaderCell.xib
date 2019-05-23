@@ -16,22 +16,33 @@
             <rect key="frame" x="0.0" y="0.0" width="405" height="234"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gZY-5m-YZR">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gZY-5m-YZR" userLabel="Container">
                     <rect key="frame" x="0.0" y="44" width="405" height="156"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QGW-YK-Du1">
-                            <rect key="frame" x="30" y="0.0" width="345" height="156"/>
+                            <rect key="frame" x="20" y="0.0" width="365" height="156"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
                         </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f3H-v3-zmo" userLabel="Bottom Line">
+                            <rect key="frame" x="0.0" y="155" width="405" height="1"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="V1T-8S-5LE"/>
+                            </constraints>
+                            <viewLayoutGuide key="safeArea" id="Tkt-I5-Pvv"/>
+                        </view>
                     </subviews>
-                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstAttribute="bottom" secondItem="QGW-YK-Du1" secondAttribute="bottom" id="CcJ-s8-tY1"/>
-                        <constraint firstAttribute="trailing" secondItem="QGW-YK-Du1" secondAttribute="trailing" constant="30" id="NK3-VC-qtG"/>
-                        <constraint firstItem="QGW-YK-Du1" firstAttribute="leading" secondItem="gZY-5m-YZR" secondAttribute="leading" constant="30" id="Omo-cd-p2T"/>
-                        <constraint firstItem="QGW-YK-Du1" firstAttribute="top" secondItem="gZY-5m-YZR" secondAttribute="top" id="uzE-kP-jfJ"/>
+                        <constraint firstAttribute="bottom" secondItem="f3H-v3-zmo" secondAttribute="bottom" id="1NN-t4-gNP"/>
+                        <constraint firstItem="QGW-YK-Du1" firstAttribute="leading" secondItem="gZY-5m-YZR" secondAttribute="leading" constant="20" id="3Ts-Pg-hga"/>
+                        <constraint firstItem="QGW-YK-Du1" firstAttribute="top" secondItem="gZY-5m-YZR" secondAttribute="top" id="75O-C4-UYU"/>
+                        <constraint firstAttribute="bottom" secondItem="QGW-YK-Du1" secondAttribute="bottom" id="DUl-DY-zKt"/>
+                        <constraint firstAttribute="trailing" secondItem="f3H-v3-zmo" secondAttribute="trailing" id="N71-1I-cps"/>
+                        <constraint firstItem="f3H-v3-zmo" firstAttribute="leading" secondItem="gZY-5m-YZR" secondAttribute="leading" id="bYh-o1-VJT"/>
+                        <constraint firstAttribute="trailing" secondItem="QGW-YK-Du1" secondAttribute="trailing" constant="20" id="yGr-wi-G55"/>
                     </constraints>
                 </view>
             </subviews>

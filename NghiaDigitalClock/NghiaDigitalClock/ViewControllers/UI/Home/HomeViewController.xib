@@ -65,6 +65,9 @@
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LKo-9h-2er" userLabel="Theme">
                     <rect key="frame" x="619" y="325" width="28" height="30"/>
                     <state key="normal" image="ic_themes"/>
+                    <connections>
+                        <action selector="showSkinList:" destination="-1" eventType="touchUpInside" id="xPq-uZ-pPE"/>
+                    </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TUE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PKO-el-qMh" userLabel="Week Day">
                     <rect key="frame" x="159" y="68" width="43" height="28.5"/>

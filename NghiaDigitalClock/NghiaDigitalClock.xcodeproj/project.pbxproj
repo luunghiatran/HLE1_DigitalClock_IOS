@@ -16,9 +16,13 @@
 		594646F8228A68F4000DB734 /* digital-7 (italic).ttf in Resources */ = {isa = PBXBuildFile; fileRef = 594646F4228A68F4000DB734 /* digital-7 (italic).ttf */; };
 		594646F9228A68F4000DB734 /* digital-7 (mono).ttf in Resources */ = {isa = PBXBuildFile; fileRef = 594646F5228A68F4000DB734 /* digital-7 (mono).ttf */; };
 		594646FA228A68F4000DB734 /* digital-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 594646F6228A68F4000DB734 /* digital-7.ttf */; };
-		CA05A75A22954BF300DBFE3B /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA05A75922954BF300DBFE3B /* HeaderCell.swift */; };
-		CA05A75C22954C0700DBFE3B /* HeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA05A75B22954C0700DBFE3B /* HeaderCell.xib */; };
 		CA05A75E2295583E00DBFE3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA05A75D2295583E00DBFE3B /* Assets.xcassets */; };
+		CA066A6F22964AE100BE5D61 /* HeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA066A6C22964AE100BE5D61 /* HeaderCell.xib */; };
+		CA066A7022964AE100BE5D61 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA066A6D22964AE100BE5D61 /* HeaderCell.swift */; };
+		CA066A772296894700BE5D61 /* ClockType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA066A762296894700BE5D61 /* ClockType.swift */; };
+		CA066A7B229694BD00BE5D61 /* SkinCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA066A79229694BD00BE5D61 /* SkinCell.swift */; };
+		CA066A7C229694BD00BE5D61 /* SkinCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA066A7A229694BD00BE5D61 /* SkinCell.xib */; };
+		CA066A7F2296B01400BE5D61 /* ExtUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA066A7E2296B01400BE5D61 /* ExtUIColor.swift */; };
 		CA0A45DE2293A612006E3C1E /* SkinListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0A45DC2293A612006E3C1E /* SkinListViewController.swift */; };
 		CA0A45DF2293A612006E3C1E /* SkinListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA0A45DD2293A612006E3C1E /* SkinListViewController.xib */; };
 		CA0A45E32293A68C006E3C1E /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0A45E12293A68C006E3C1E /* SettingViewController.swift */; };
@@ -40,9 +44,13 @@
 		594646F5228A68F4000DB734 /* digital-7 (mono).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7 (mono).ttf"; sourceTree = "<group>"; };
 		594646F6228A68F4000DB734 /* digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7.ttf"; sourceTree = "<group>"; };
 		C0A3D245C5EDF87293A014E4 /* Pods_NghiaDigitalClock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NghiaDigitalClock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA05A75922954BF300DBFE3B /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
-		CA05A75B22954C0700DBFE3B /* HeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCell.xib; sourceTree = "<group>"; };
 		CA05A75D2295583E00DBFE3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		CA066A6C22964AE100BE5D61 /* HeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderCell.xib; sourceTree = "<group>"; };
+		CA066A6D22964AE100BE5D61 /* HeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		CA066A762296894700BE5D61 /* ClockType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockType.swift; sourceTree = "<group>"; };
+		CA066A79229694BD00BE5D61 /* SkinCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinCell.swift; sourceTree = "<group>"; };
+		CA066A7A229694BD00BE5D61 /* SkinCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SkinCell.xib; sourceTree = "<group>"; };
+		CA066A7E2296B01400BE5D61 /* ExtUIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtUIColor.swift; sourceTree = "<group>"; };
 		CA0A45DC2293A612006E3C1E /* SkinListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinListViewController.swift; sourceTree = "<group>"; };
 		CA0A45DD2293A612006E3C1E /* SkinListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SkinListViewController.xib; sourceTree = "<group>"; };
 		CA0A45E12293A68C006E3C1E /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
@@ -94,8 +102,10 @@
 		594646D6228A6258000DB734 /* NghiaDigitalClock */ = {
 			isa = PBXGroup;
 			children = (
-				CA0A45DA2293A4D7006E3C1E /* AppDelegate */,
+				CA066A7D2296AEEC00BE5D61 /* Util */,
+				CA066A75229688B000BE5D61 /* Model */,
 				594646F1228A68D4000DB734 /* Assets */,
+				CA0A45DA2293A4D7006E3C1E /* AppDelegate */,
 				594646E9228A62F2000DB734 /* ViewControllers */,
 				594646E0228A625A000DB734 /* LaunchScreen.storyboard */,
 				594646E3228A625A000DB734 /* Info.plist */,
@@ -166,13 +176,38 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		CA05A7302294EAC300DBFE3B /* HeaderCell */ = {
+		CA066A6E22964AE100BE5D61 /* HeaderCell */ = {
 			isa = PBXGroup;
 			children = (
-				CA05A75922954BF300DBFE3B /* HeaderCell.swift */,
-				CA05A75B22954C0700DBFE3B /* HeaderCell.xib */,
+				CA066A6D22964AE100BE5D61 /* HeaderCell.swift */,
+				CA066A6C22964AE100BE5D61 /* HeaderCell.xib */,
 			);
 			path = HeaderCell;
+			sourceTree = "<group>";
+		};
+		CA066A75229688B000BE5D61 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA066A762296894700BE5D61 /* ClockType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CA066A782296942800BE5D61 /* SkinCell */ = {
+			isa = PBXGroup;
+			children = (
+				CA066A79229694BD00BE5D61 /* SkinCell.swift */,
+				CA066A7A229694BD00BE5D61 /* SkinCell.xib */,
+			);
+			path = SkinCell;
+			sourceTree = "<group>";
+		};
+		CA066A7D2296AEEC00BE5D61 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				CA066A7E2296B01400BE5D61 /* ExtUIColor.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 		CA0A45DA2293A4D7006E3C1E /* AppDelegate */ = {
@@ -186,6 +221,7 @@
 		CA0A45DB2293A5F5006E3C1E /* SkinList */ = {
 			isa = PBXGroup;
 			children = (
+				CA066A782296942800BE5D61 /* SkinCell */,
 				CA0A45DC2293A612006E3C1E /* SkinListViewController.swift */,
 				CA0A45DD2293A612006E3C1E /* SkinListViewController.xib */,
 			);
@@ -195,7 +231,7 @@
 		CA0A45E02293A656006E3C1E /* Setting */ = {
 			isa = PBXGroup;
 			children = (
-				CA05A7302294EAC300DBFE3B /* HeaderCell */,
+				CA066A6E22964AE100BE5D61 /* HeaderCell */,
 				CA1893762293E72A00D1F721 /* MenuCell */,
 				CA0A45E12293A68C006E3C1E /* SettingViewController.swift */,
 				CA0A45E22293A68C006E3C1E /* SettingViewController.xib */,
@@ -223,6 +259,7 @@
 				594646D0228A6258000DB734 /* Sources */,
 				594646D1228A6258000DB734 /* Frameworks */,
 				594646D2228A6258000DB734 /* Resources */,
+				CA066A73229658CA00BE5D61 /* SwiftLint Run Script */,
 			);
 			buildRules = (
 			);
@@ -245,6 +282,7 @@
 				TargetAttributes = {
 					594646D3228A6258000DB734 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -273,6 +311,7 @@
 			files = (
 				594646F9228A68F4000DB734 /* digital-7 (mono).ttf in Resources */,
 				CA0A45E42293A68C006E3C1E /* SettingViewController.xib in Resources */,
+				CA066A7C229694BD00BE5D61 /* SkinCell.xib in Resources */,
 				CA05A75E2295583E00DBFE3B /* Assets.xcassets in Resources */,
 				CA18938A229408B500D1F721 /* MenuCell.xib in Resources */,
 				594646E2228A625A000DB734 /* LaunchScreen.storyboard in Resources */,
@@ -281,7 +320,7 @@
 				594646FA228A68F4000DB734 /* digital-7.ttf in Resources */,
 				594646F7228A68F4000DB734 /* digital-7 (mono italic).ttf in Resources */,
 				594646F0228A6336000DB734 /* HomeViewController.xib in Resources */,
-				CA05A75C22954C0700DBFE3B /* HeaderCell.xib in Resources */,
+				CA066A6F22964AE100BE5D61 /* HeaderCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +349,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		CA066A73229658CA00BE5D61 /* SwiftLint Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "SwiftLint Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -319,10 +376,13 @@
 			files = (
 				594646D8228A6258000DB734 /* AppDelegate.swift in Sources */,
 				CA189389229408B500D1F721 /* MenuCell.swift in Sources */,
+				CA066A7F2296B01400BE5D61 /* ExtUIColor.swift in Sources */,
 				CA0A45DE2293A612006E3C1E /* SkinListViewController.swift in Sources */,
+				CA066A772296894700BE5D61 /* ClockType.swift in Sources */,
 				594646EF228A6336000DB734 /* HomeViewController.swift in Sources */,
-				CA05A75A22954BF300DBFE3B /* HeaderCell.swift in Sources */,
 				CA0A45E32293A68C006E3C1E /* SettingViewController.swift in Sources */,
+				CA066A7B229694BD00BE5D61 /* SkinCell.swift in Sources */,
+				CA066A7022964AE100BE5D61 /* HeaderCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

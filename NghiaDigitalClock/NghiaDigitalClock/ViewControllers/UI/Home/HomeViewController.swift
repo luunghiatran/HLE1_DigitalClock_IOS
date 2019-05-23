@@ -20,7 +20,7 @@ class HomeViewController: UIViewController {
         
         updateUI()
         
-        Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { (timer) in
+        Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { _ in
             self.updateUI()
         }
     }
@@ -41,7 +41,6 @@ class HomeViewController: UIViewController {
         let second = calendar.component(.second, from: date)
         secondLabel?.text = String(format: ":%02d", second)
         
-        
         let formater = DateFormatter()
         formater.dateFormat = "EEE"
         let weekDay = formater.string(from: date)
@@ -52,7 +51,7 @@ class HomeViewController: UIViewController {
         dateLabel?.text = "\(dateStr)"
     }
     
-    @IBAction func showSetting(_ sender : Any) {
+    @IBAction func showSetting (_ sender: Any) {
         let controller = SettingViewController(nibName: "SettingViewController", bundle: nil)
         let nav = UINavigationController(rootViewController: controller)
         nav.setViewControllers([controller], animated: true)
@@ -61,15 +60,11 @@ class HomeViewController: UIViewController {
         //self.navigationController?.dismiss(animated: true, completion: nil) // Clear all Stack
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func showSkinList (_ sender: Any) {
+        let controller = SkinListViewController(nibName: "SkinListViewController", bundle: nil)
+        let nav = UINavigationController(rootViewController: controller)
+        nav.setViewControllers([controller], animated: true)
+        
+        self.present(nav, animated: true, completion: nil)
     }
-    */
-
 }

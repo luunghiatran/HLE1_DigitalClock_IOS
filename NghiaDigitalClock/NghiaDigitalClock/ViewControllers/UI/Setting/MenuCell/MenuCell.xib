@@ -15,7 +15,7 @@
         <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="175" id="KGk-i7-Jjw" customClass="MenuCell" customModule="NghiaDigitalClock" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="557" height="175"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM" userLabel="Container">
                 <rect key="frame" x="0.0" y="0.0" width="557" height="174.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
@@ -43,10 +43,18 @@
                         <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xFp-Jj-t2m" userLabel="Bottom Line">
+                        <rect key="frame" x="60" y="173.5" width="497" height="1"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="3iJ-4i-fc1"/>
+                        </constraints>
+                    </view>
                 </subviews>
-                <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 <constraints>
                     <constraint firstItem="2w2-mR-2MQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="0ta-BW-tIw"/>
+                    <constraint firstAttribute="trailing" secondItem="xFp-Jj-t2m" secondAttribute="trailing" id="1uS-8k-kYH"/>
                     <constraint firstItem="mAj-kK-m3F" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="2Em-Ie-zKq"/>
                     <constraint firstItem="Pun-sk-LrR" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="ET2-bh-nJ2"/>
                     <constraint firstItem="e8p-mg-b8j" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="GGL-iV-XGn"/>
@@ -54,15 +62,18 @@
                     <constraint firstItem="e8p-mg-b8j" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="LEc-SG-PiJ"/>
                     <constraint firstItem="Pun-sk-LrR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="T7Y-o1-sza"/>
                     <constraint firstItem="2w2-mR-2MQ" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="UbQ-UR-RIs"/>
+                    <constraint firstAttribute="bottom" secondItem="xFp-Jj-t2m" secondAttribute="bottom" id="WMq-xm-o5i"/>
                     <constraint firstAttribute="trailingMargin" secondItem="e8p-mg-b8j" secondAttribute="trailing" id="aOC-tY-YZu"/>
                     <constraint firstItem="e8p-mg-b8j" firstAttribute="leading" secondItem="2w2-mR-2MQ" secondAttribute="trailing" constant="10" id="du7-0g-CsR"/>
                     <constraint firstItem="2w2-mR-2MQ" firstAttribute="leading" secondItem="Pun-sk-LrR" secondAttribute="trailing" constant="10" id="i3b-cb-cqI"/>
+                    <constraint firstItem="xFp-Jj-t2m" firstAttribute="leading" secondItem="Pun-sk-LrR" secondAttribute="leading" id="mrb-I3-mHX"/>
                     <constraint firstItem="mAj-kK-m3F" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="wZf-Zn-gmQ"/>
                     <constraint firstItem="mAj-kK-m3F" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="zzG-62-0kh"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
+                <outlet property="bottomLineView" destination="xFp-Jj-t2m" id="Ajo-lb-E72"/>
                 <outlet property="iconArrowImage" destination="e8p-mg-b8j" id="Hz3-g7-0Tp"/>
                 <outlet property="iconImage" destination="mAj-kK-m3F" id="5SU-ab-0C6"/>
                 <outlet property="subTitleLable" destination="2w2-mR-2MQ" id="54f-OG-j7g"/>

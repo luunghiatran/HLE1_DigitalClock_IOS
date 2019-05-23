@@ -14,22 +14,32 @@ class MenuCell: UITableViewCell {
     @IBOutlet weak var titleLable: UILabel!
     @IBOutlet weak var subTitleLable: UILabel!
     @IBOutlet weak var iconArrowImage: UIImageView!
+    @IBOutlet weak var bottomLineView: UIView!
     
-
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
     
-    func setData(data: [String]) {
-        // data = ["Display Settings", "ic_display_settings"]
-        titleLable.text = data[0]
-        iconImage.image = UIImage(named: data[1])
+    func setData(data: [Any], indexPath: IndexPath, sectionItems: Int) {
+        // data = ["Display Settings", "ic_display_settings", "", true],
+        titleLable.text = data[0] as? String ?? ""
+        iconImage.image = UIImage(named: data[1] as? String ?? "")
+        subTitleLable.text = data[2] as? String ?? ""
+        
+        let showArrow = data[3] as? Bool
+        if showArrow == true {
+            iconArrowImage.isHidden = false
+        } else {
+            iconArrowImage.isHidden = true
+        }
+        if indexPath.row == sectionItems - 1 {
+            bottomLineView.isHidden = true
+        } else {
+            bottomLineView.isHidden = false
+        }
     }
 }
