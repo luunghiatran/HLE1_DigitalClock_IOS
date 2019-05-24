@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		7F67C5F2614153DE66A9DBB258437DC7 /* SwiftLint */ = {
+		2CC05E606770313C5F2360DBC4D32CD2 /* SwiftLint */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = A0335762BA853BE787E292D9D7424EE0 /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildConfigurationList = 0F1F270EFC37CBB3235A4C4B68A2B8CC /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
 			buildPhases = (
 			);
 			dependencies = (
@@ -19,164 +19,367 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		83D2E191272243D7CE1C8D08B91D3476 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		84890C781D827121CBE05867408F9A6B /* Pods-NghiaDigitalClock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84847CC437D871D9EECED8C41F4D1C70 /* Pods-NghiaDigitalClock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A7C3D09485A080EE0429EC9BA5B1DD9A /* Pods-NghiaDigitalClock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C40D9B0FCB6076ADD81EA32CC6E80769 /* Pods-NghiaDigitalClock-dummy.m */; };
+		0EDCA099021F8662D14155F8C32893FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		143F3A4348A769E13C5EEC7362DD37C5 /* DefaultsObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2CF56AC9CFC60D521E708B7D982936 /* DefaultsObserver.swift */; };
+		17242177A15C0BA5EE3402542A5DCE4A /* OptionalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B8AC2055BCBDA234DF1F038BA5665B /* OptionalType.swift */; };
+		174298A645AEEA691A9BC8EC22BC1919 /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72205B17F896949FC1BB290BBDB72A35 /* Defaults.swift */; };
+		20FF74B580512D254391C16992865745 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		2276DC9D7849C5C7D6BD6B902451D473 /* Defaults+Observing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF12AEEC232A1CB240BE7AE9D20AC0B /* Defaults+Observing.swift */; };
+		2C32C43F87AE01FB62BD1A11098DBF55 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD739027BB567788BB6133ADD04E6C00 /* StringExtension.swift */; };
+		3751D05CD33785D78009B24D040B7C27 /* DefaultsSerializable+BuiltIns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CAC532234DBBA0F867EECB6062C8B3 /* DefaultsSerializable+BuiltIns.swift */; };
+		39A45D34F4476E89D11A53C9C39025D9 /* SwiftyUserDefaults-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5298BDCC3D030CB9CCBE94A8C7BA4AD8 /* SwiftyUserDefaults-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E988D66B19209930932147B67849E46 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB0FC97611187BD3F828A4075781997 /* UIColorExtension.swift */; };
+		5A675A19AAC7178B41C2C10093641D8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		7460A8528E1A47D101B0B28C4A29588D /* Defaults+StringToBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739ADDE870B1BEECA3099CA127E2E72B /* Defaults+StringToBool.swift */; };
+		85EB4E5E311AFF6D4DEAC6AC89A9B783 /* DefaultsSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4961B19B7D3959101931AA8BA2CBDD /* DefaultsSerializable.swift */; };
+		8AA35A7DE01F1FDFC414D4FADDFD16E9 /* SwiftyUserDefaults-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C175EC5128C9C6DA36C4758B384FAD /* SwiftyUserDefaults-dummy.m */; };
+		90B7C3B1C778C38D063FD77058521D29 /* HEXColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 68D6A4012E87A520F5BCABC4C573917D /* HEXColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9ABE1BE5C016BA927EEA980933874C59 /* Pods-NghiaDigitalClock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FBF84FD6039DBCFEB99E3899D5406A4 /* Pods-NghiaDigitalClock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3DA7802BACD58930BD2189F61BF39F7 /* Pods-NghiaDigitalClock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7EB4AAFFFC884C39A568A41F3A68FF6 /* Pods-NghiaDigitalClock-dummy.m */; };
+		A834531BBFB52A8D7D76BCEC27561C4C /* UIColorInputError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660092E78323039DFFABF865FF9B8E3D /* UIColorInputError.swift */; };
+		C98F1B70173E46DA57C5D3C9DC7708B2 /* Defaults+Subscripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DA80C745988EC9ACA5F68878AF00BA /* Defaults+Subscripts.swift */; };
+		D794D540CE626D6A2FE8741DA48AF8AE /* DefaultsBridges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7564FD09016FE4A70EF06355B64F24C0 /* DefaultsBridges.swift */; };
+		DBB7BFB2335F5014EBE3333CF3543520 /* DefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4C65178BC14AE9EF973FA1169766F0 /* DefaultsKeys.swift */; };
+		E2239C46E1EBCBA2E943EFD8818FE716 /* UIColor_Hex_Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B88E7A3B6730F7F34C868EF2D43BF6 /* UIColor_Hex_Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4DD801178BAF8CF4A24066A42ED9D69 /* UIColor_Hex_Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DDC741A969364CCFC0379B37CE9E92 /* UIColor_Hex_Swift-dummy.m */; };
+		FBEEB3D43FBDEA7DC7F91BC73354201A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6A419793DDAE6E98DF329324244F2B85 /* PBXContainerItemProxy */ = {
+		036C444896C49F4C86A1FA1749F2AB85 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7F67C5F2614153DE66A9DBB258437DC7;
+			remoteGlobalIDString = 489AB11F9B55022F030F90C900E3FF60;
+			remoteInfo = UIColor_Hex_Swift;
+		};
+		31294095855F1CE3289BE7568AC6A5CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C032AF8EDBB2B10C47D1DEA46D435AD7;
+			remoteInfo = SwiftyUserDefaults;
+		};
+		7998BEF58E6B0E78D617DC74F0D72DE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CC05E606770313C5F2360DBC4D32CD2;
 			remoteInfo = SwiftLint;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		32CF32D33EE38017E1418863E7FA5D96 /* Pods-NghiaDigitalClock-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NghiaDigitalClock-Info.plist"; sourceTree = "<group>"; };
-		3E3BA98DC9A73CA6381E07AC9DE03366 /* Pods-NghiaDigitalClock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NghiaDigitalClock.modulemap"; sourceTree = "<group>"; };
-		497AD7199053958E20F3D3EF8FF8EDF2 /* Pods-NghiaDigitalClock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NghiaDigitalClock.release.xcconfig"; sourceTree = "<group>"; };
-		607AD7108AAD83A872FE0B7A1D93103E /* Pods_NghiaDigitalClock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NghiaDigitalClock.framework; path = "Pods-NghiaDigitalClock.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F27D1AB35063DC32D704974CC89F9CC /* Pods-NghiaDigitalClock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NghiaDigitalClock.debug.xcconfig"; sourceTree = "<group>"; };
-		84847CC437D871D9EECED8C41F4D1C70 /* Pods-NghiaDigitalClock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NghiaDigitalClock-umbrella.h"; sourceTree = "<group>"; };
-		89F85ACF3D78B39506B75103B4694B36 /* SwiftLint.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.xcconfig; sourceTree = "<group>"; };
+		01B88E7A3B6730F7F34C868EF2D43BF6 /* UIColor_Hex_Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor_Hex_Swift-umbrella.h"; sourceTree = "<group>"; };
+		06A928B7FBFD7BC1B44DD6A82B9754EE /* SwiftyUserDefaults.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyUserDefaults.modulemap; sourceTree = "<group>"; };
+		0A92FF566C87B950FAA6C69FDF9DD969 /* Pods-NghiaDigitalClock-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NghiaDigitalClock-Info.plist"; sourceTree = "<group>"; };
+		113100B6995EEFD73BEA8DDF0A300586 /* SwiftyUserDefaults.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyUserDefaults.xcconfig; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		36DDC741A969364CCFC0379B37CE9E92 /* UIColor_Hex_Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor_Hex_Swift-dummy.m"; sourceTree = "<group>"; };
+		38C175EC5128C9C6DA36C4758B384FAD /* SwiftyUserDefaults-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyUserDefaults-dummy.m"; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4F4C65178BC14AE9EF973FA1169766F0 /* DefaultsKeys.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultsKeys.swift; path = Sources/DefaultsKeys.swift; sourceTree = "<group>"; };
+		5298BDCC3D030CB9CCBE94A8C7BA4AD8 /* SwiftyUserDefaults-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyUserDefaults-umbrella.h"; sourceTree = "<group>"; };
+		564D15B540D75E2A47711C454748F7F4 /* Pods-NghiaDigitalClock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NghiaDigitalClock.modulemap"; sourceTree = "<group>"; };
+		5849BC0328E7409AAAF1107BF9D724C5 /* SwiftyUserDefaults-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyUserDefaults-Info.plist"; sourceTree = "<group>"; };
+		5D99EBB60C193C430AEFFF4C6A1952A7 /* Pods-NghiaDigitalClock-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NghiaDigitalClock-frameworks.sh"; sourceTree = "<group>"; };
+		5FBF84FD6039DBCFEB99E3899D5406A4 /* Pods-NghiaDigitalClock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NghiaDigitalClock-umbrella.h"; sourceTree = "<group>"; };
+		62DA80C745988EC9ACA5F68878AF00BA /* Defaults+Subscripts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Defaults+Subscripts.swift"; path = "Sources/Defaults+Subscripts.swift"; sourceTree = "<group>"; };
+		660092E78323039DFFABF865FF9B8E3D /* UIColorInputError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorInputError.swift; path = HEXColor/UIColorInputError.swift; sourceTree = "<group>"; };
+		68D6A4012E87A520F5BCABC4C573917D /* HEXColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HEXColor.h; path = HEXColor/HEXColor.h; sourceTree = "<group>"; };
+		72205B17F896949FC1BB290BBDB72A35 /* Defaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Defaults.swift; path = Sources/Defaults.swift; sourceTree = "<group>"; };
+		739ADDE870B1BEECA3099CA127E2E72B /* Defaults+StringToBool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Defaults+StringToBool.swift"; path = "Sources/Defaults+StringToBool.swift"; sourceTree = "<group>"; };
+		7564FD09016FE4A70EF06355B64F24C0 /* DefaultsBridges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultsBridges.swift; path = Sources/DefaultsBridges.swift; sourceTree = "<group>"; };
+		7AD5735D9E14784D6E72E7720F444429 /* SwiftyUserDefaults-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyUserDefaults-prefix.pch"; sourceTree = "<group>"; };
+		81EE96C1D4CF2E248FAF1753A3EA3F8E /* UIColor_Hex_Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIColor_Hex_Swift.xcconfig; sourceTree = "<group>"; };
+		83CAC532234DBBA0F867EECB6062C8B3 /* DefaultsSerializable+BuiltIns.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DefaultsSerializable+BuiltIns.swift"; path = "Sources/DefaultsSerializable+BuiltIns.swift"; sourceTree = "<group>"; };
+		8664C7E70701171270B9617DC413CAD0 /* UIColor_Hex_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIColor_Hex_Swift.framework; path = UIColor_Hex_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E91A16D240C5FF6149FE38C49E2596 /* SwiftyUserDefaults.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyUserDefaults.framework; path = SwiftyUserDefaults.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F59C0C89357F5760234154298ED99D3 /* Pods-NghiaDigitalClock-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NghiaDigitalClock-acknowledgements.markdown"; sourceTree = "<group>"; };
-		ADB5F068F07F6D181998E01EB6E5E6F2 /* Pods-NghiaDigitalClock-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NghiaDigitalClock-acknowledgements.plist"; sourceTree = "<group>"; };
-		C40D9B0FCB6076ADD81EA32CC6E80769 /* Pods-NghiaDigitalClock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NghiaDigitalClock-dummy.m"; sourceTree = "<group>"; };
+		AC3590B712845081DC79B7E8261C5978 /* Pods-NghiaDigitalClock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NghiaDigitalClock.release.xcconfig"; sourceTree = "<group>"; };
+		B486913A90075B2A4411CA8C6A7C1C44 /* UIColor_Hex_Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UIColor_Hex_Swift.modulemap; sourceTree = "<group>"; };
+		BAC7CE6383F678A13134A06BD668F558 /* Pods-NghiaDigitalClock-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NghiaDigitalClock-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D31AA16D60553754F7F84F30195B443C /* Pods_NghiaDigitalClock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NghiaDigitalClock.framework; path = "Pods-NghiaDigitalClock.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B8AC2055BCBDA234DF1F038BA5665B /* OptionalType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OptionalType.swift; path = Sources/OptionalType.swift; sourceTree = "<group>"; };
+		D7EB4AAFFFC884C39A568A41F3A68FF6 /* Pods-NghiaDigitalClock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NghiaDigitalClock-dummy.m"; sourceTree = "<group>"; };
+		E3EFA663D0B0815B428F641065A35BE8 /* SwiftLint.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.xcconfig; sourceTree = "<group>"; };
+		EB2CF56AC9CFC60D521E708B7D982936 /* DefaultsObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultsObserver.swift; path = Sources/DefaultsObserver.swift; sourceTree = "<group>"; };
+		EEB0FC97611187BD3F828A4075781997 /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = HEXColor/UIColorExtension.swift; sourceTree = "<group>"; };
+		F1037C9B633737BFEF752800A0EFB97F /* Pods-NghiaDigitalClock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NghiaDigitalClock.debug.xcconfig"; sourceTree = "<group>"; };
+		FCC0000709D33ED9C95F3912C255B17E /* UIColor_Hex_Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UIColor_Hex_Swift-Info.plist"; sourceTree = "<group>"; };
+		FD739027BB567788BB6133ADD04E6C00 /* StringExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = HEXColor/StringExtension.swift; sourceTree = "<group>"; };
+		FDE07763606C223BC9259CB7DC2F9B3C /* UIColor_Hex_Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor_Hex_Swift-prefix.pch"; sourceTree = "<group>"; };
+		FE4961B19B7D3959101931AA8BA2CBDD /* DefaultsSerializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultsSerializable.swift; path = Sources/DefaultsSerializable.swift; sourceTree = "<group>"; };
+		FF8E8D3C9CA7814F62CBE31A0FF561F8 /* Pods-NghiaDigitalClock-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NghiaDigitalClock-acknowledgements.plist"; sourceTree = "<group>"; };
+		FFF12AEEC232A1CB240BE7AE9D20AC0B /* Defaults+Observing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Defaults+Observing.swift"; path = "Sources/Defaults+Observing.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		42E6A08D8C4925096AA7321851B97DF8 /* Frameworks */ = {
+		281803198AEA01DC4CB8C10BF5586F02 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83D2E191272243D7CE1C8D08B91D3476 /* Foundation.framework in Frameworks */,
+				FBEEB3D43FBDEA7DC7F91BC73354201A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40243EB21774B7D1EEC5B9D5446222B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EDCA099021F8662D14155F8C32893FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934E63D810474CFEDD827AC020C1A8DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A675A19AAC7178B41C2C10093641D8D /* Foundation.framework in Frameworks */,
+				20FF74B580512D254391C16992865745 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07A0C226F6190B7973D756C851D72A7A /* Targets Support Files */ = {
+		117F8B09426757545A9AE018B05B3A9D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				351FCF10DC6E041F406E25589B13A6BD /* Pods-NghiaDigitalClock */,
+				81B4239E850B12D89475A147C19D0DE0 /* SwiftLint */,
+				5BD8EEA447E9D1A69B3477512A2BEA29 /* SwiftyUserDefaults */,
+				7C813A1CA5C61A8DF07ACAB196B05F7B /* UIColor_Hex_Swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1871FA68AF74D98D06B060B95CDCB88D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				713A7BBD6569ED59B50F4444CB94CF77 /* Pods-NghiaDigitalClock */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		351FCF10DC6E041F406E25589B13A6BD /* Pods-NghiaDigitalClock */ = {
+		2F2E09551E80B692F6F59BCBAF9217C6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3E3BA98DC9A73CA6381E07AC9DE03366 /* Pods-NghiaDigitalClock.modulemap */,
-				9F59C0C89357F5760234154298ED99D3 /* Pods-NghiaDigitalClock-acknowledgements.markdown */,
-				ADB5F068F07F6D181998E01EB6E5E6F2 /* Pods-NghiaDigitalClock-acknowledgements.plist */,
-				C40D9B0FCB6076ADD81EA32CC6E80769 /* Pods-NghiaDigitalClock-dummy.m */,
-				32CF32D33EE38017E1418863E7FA5D96 /* Pods-NghiaDigitalClock-Info.plist */,
-				84847CC437D871D9EECED8C41F4D1C70 /* Pods-NghiaDigitalClock-umbrella.h */,
-				7F27D1AB35063DC32D704974CC89F9CC /* Pods-NghiaDigitalClock.debug.xcconfig */,
-				497AD7199053958E20F3D3EF8FF8EDF2 /* Pods-NghiaDigitalClock.release.xcconfig */,
+				06A928B7FBFD7BC1B44DD6A82B9754EE /* SwiftyUserDefaults.modulemap */,
+				113100B6995EEFD73BEA8DDF0A300586 /* SwiftyUserDefaults.xcconfig */,
+				38C175EC5128C9C6DA36C4758B384FAD /* SwiftyUserDefaults-dummy.m */,
+				5849BC0328E7409AAAF1107BF9D724C5 /* SwiftyUserDefaults-Info.plist */,
+				7AD5735D9E14784D6E72E7720F444429 /* SwiftyUserDefaults-prefix.pch */,
+				5298BDCC3D030CB9CCBE94A8C7BA4AD8 /* SwiftyUserDefaults-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyUserDefaults";
+			sourceTree = "<group>";
+		};
+		5B71F491723DCCAFF24EFD22AE10D3F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D31AA16D60553754F7F84F30195B443C /* Pods_NghiaDigitalClock.framework */,
+				89E91A16D240C5FF6149FE38C49E2596 /* SwiftyUserDefaults.framework */,
+				8664C7E70701171270B9617DC413CAD0 /* UIColor_Hex_Swift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BD8EEA447E9D1A69B3477512A2BEA29 /* SwiftyUserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				72205B17F896949FC1BB290BBDB72A35 /* Defaults.swift */,
+				FFF12AEEC232A1CB240BE7AE9D20AC0B /* Defaults+Observing.swift */,
+				739ADDE870B1BEECA3099CA127E2E72B /* Defaults+StringToBool.swift */,
+				62DA80C745988EC9ACA5F68878AF00BA /* Defaults+Subscripts.swift */,
+				7564FD09016FE4A70EF06355B64F24C0 /* DefaultsBridges.swift */,
+				4F4C65178BC14AE9EF973FA1169766F0 /* DefaultsKeys.swift */,
+				EB2CF56AC9CFC60D521E708B7D982936 /* DefaultsObserver.swift */,
+				FE4961B19B7D3959101931AA8BA2CBDD /* DefaultsSerializable.swift */,
+				83CAC532234DBBA0F867EECB6062C8B3 /* DefaultsSerializable+BuiltIns.swift */,
+				D5B8AC2055BCBDA234DF1F038BA5665B /* OptionalType.swift */,
+				2F2E09551E80B692F6F59BCBAF9217C6 /* Support Files */,
+			);
+			name = SwiftyUserDefaults;
+			path = SwiftyUserDefaults;
+			sourceTree = "<group>";
+		};
+		713A7BBD6569ED59B50F4444CB94CF77 /* Pods-NghiaDigitalClock */ = {
+			isa = PBXGroup;
+			children = (
+				564D15B540D75E2A47711C454748F7F4 /* Pods-NghiaDigitalClock.modulemap */,
+				BAC7CE6383F678A13134A06BD668F558 /* Pods-NghiaDigitalClock-acknowledgements.markdown */,
+				FF8E8D3C9CA7814F62CBE31A0FF561F8 /* Pods-NghiaDigitalClock-acknowledgements.plist */,
+				D7EB4AAFFFC884C39A568A41F3A68FF6 /* Pods-NghiaDigitalClock-dummy.m */,
+				5D99EBB60C193C430AEFFF4C6A1952A7 /* Pods-NghiaDigitalClock-frameworks.sh */,
+				0A92FF566C87B950FAA6C69FDF9DD969 /* Pods-NghiaDigitalClock-Info.plist */,
+				5FBF84FD6039DBCFEB99E3899D5406A4 /* Pods-NghiaDigitalClock-umbrella.h */,
+				F1037C9B633737BFEF752800A0EFB97F /* Pods-NghiaDigitalClock.debug.xcconfig */,
+				AC3590B712845081DC79B7E8261C5978 /* Pods-NghiaDigitalClock.release.xcconfig */,
 			);
 			name = "Pods-NghiaDigitalClock";
 			path = "Target Support Files/Pods-NghiaDigitalClock";
 			sourceTree = "<group>";
 		};
-		4D88DE664E644CDA54D36A5770C1BC9D /* Products */ = {
+		7C813A1CA5C61A8DF07ACAB196B05F7B /* UIColor_Hex_Swift */ = {
 			isa = PBXGroup;
 			children = (
-				607AD7108AAD83A872FE0B7A1D93103E /* Pods_NghiaDigitalClock.framework */,
+				68D6A4012E87A520F5BCABC4C573917D /* HEXColor.h */,
+				FD739027BB567788BB6133ADD04E6C00 /* StringExtension.swift */,
+				EEB0FC97611187BD3F828A4075781997 /* UIColorExtension.swift */,
+				660092E78323039DFFABF865FF9B8E3D /* UIColorInputError.swift */,
+				DB2E3B85A8A4EF2C6316AEC30B63EB61 /* Support Files */,
 			);
-			name = Products;
+			name = UIColor_Hex_Swift;
+			path = UIColor_Hex_Swift;
 			sourceTree = "<group>";
 		};
-		965877409E01FB3D85D85E90E6B30185 /* Pods */ = {
+		81B4239E850B12D89475A147C19D0DE0 /* SwiftLint */ = {
 			isa = PBXGroup;
 			children = (
-				9AED61B9A1CFA211C061344F741DBA07 /* SwiftLint */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		9AED61B9A1CFA211C061344F741DBA07 /* SwiftLint */ = {
-			isa = PBXGroup;
-			children = (
-				EEA599FE5C15138FF0981CCFB01E55AA /* Support Files */,
+				A6B387912F79D5BABBCFDC6EAB1052B3 /* Support Files */,
 			);
 			name = SwiftLint;
 			path = SwiftLint;
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		A6B387912F79D5BABBCFDC6EAB1052B3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				E3EFA663D0B0815B428F641065A35BE8 /* SwiftLint.xcconfig */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				965877409E01FB3D85D85E90E6B30185 /* Pods */,
-				4D88DE664E644CDA54D36A5770C1BC9D /* Products */,
-				07A0C226F6190B7973D756C851D72A7A /* Targets Support Files */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				117F8B09426757545A9AE018B05B3A9D /* Pods */,
+				5B71F491723DCCAFF24EFD22AE10D3F7 /* Products */,
+				1871FA68AF74D98D06B060B95CDCB88D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		DB2E3B85A8A4EF2C6316AEC30B63EB61 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EEA599FE5C15138FF0981CCFB01E55AA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				89F85ACF3D78B39506B75103B4694B36 /* SwiftLint.xcconfig */,
+				B486913A90075B2A4411CA8C6A7C1C44 /* UIColor_Hex_Swift.modulemap */,
+				81EE96C1D4CF2E248FAF1753A3EA3F8E /* UIColor_Hex_Swift.xcconfig */,
+				36DDC741A969364CCFC0379B37CE9E92 /* UIColor_Hex_Swift-dummy.m */,
+				FCC0000709D33ED9C95F3912C255B17E /* UIColor_Hex_Swift-Info.plist */,
+				FDE07763606C223BC9259CB7DC2F9B3C /* UIColor_Hex_Swift-prefix.pch */,
+				01B88E7A3B6730F7F34C868EF2D43BF6 /* UIColor_Hex_Swift-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/SwiftLint";
+			path = "../Target Support Files/UIColor_Hex_Swift";
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A6244A07C0BA85AF6D5E2B2FBB21A0CF /* Headers */ = {
+		367718FBE32DA051C3F62222206B242B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84890C781D827121CBE05867408F9A6B /* Pods-NghiaDigitalClock-umbrella.h in Headers */,
+				39A45D34F4476E89D11A53C9C39025D9 /* SwiftyUserDefaults-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9859AE252FDFBB33BD95248271D97CFB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B7C3B1C778C38D063FD77058521D29 /* HEXColor.h in Headers */,
+				E2239C46E1EBCBA2E943EFD8818FE716 /* UIColor_Hex_Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C598445C889E1EEE9606E51049BEBE3A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ABE1BE5C016BA927EEA980933874C59 /* Pods-NghiaDigitalClock-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		80DD7DA7ACB32945A0AE792574BE286F /* Pods-NghiaDigitalClock */ = {
+		489AB11F9B55022F030F90C900E3FF60 /* UIColor_Hex_Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 33BD9716792D4721E68A6F83FB2C25FC /* Build configuration list for PBXNativeTarget "Pods-NghiaDigitalClock" */;
+			buildConfigurationList = 4E3F5B7CFC29ADB5644E1B550324ABCE /* Build configuration list for PBXNativeTarget "UIColor_Hex_Swift" */;
 			buildPhases = (
-				A6244A07C0BA85AF6D5E2B2FBB21A0CF /* Headers */,
-				EAED17D31CFDF5F1794D82EA85FA0C0B /* Sources */,
-				42E6A08D8C4925096AA7321851B97DF8 /* Frameworks */,
-				89B49B36292231253EF1CADF06914BAF /* Resources */,
+				9859AE252FDFBB33BD95248271D97CFB /* Headers */,
+				B7E17082119ECF69E5C7E29B7C49EBF3 /* Sources */,
+				934E63D810474CFEDD827AC020C1A8DC /* Frameworks */,
+				F284836FE0622B0CAFF35F97F52970D1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CA23715D7B08A44C37499652BA0D0D0E /* PBXTargetDependency */,
+			);
+			name = UIColor_Hex_Swift;
+			productName = UIColor_Hex_Swift;
+			productReference = 8664C7E70701171270B9617DC413CAD0 /* UIColor_Hex_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C032AF8EDBB2B10C47D1DEA46D435AD7 /* SwiftyUserDefaults */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DA87F4A38E07FEA56F4E2A9C0E235FF /* Build configuration list for PBXNativeTarget "SwiftyUserDefaults" */;
+			buildPhases = (
+				367718FBE32DA051C3F62222206B242B /* Headers */,
+				4A0C74029F6233341590FB68B5DDE2F8 /* Sources */,
+				281803198AEA01DC4CB8C10BF5586F02 /* Frameworks */,
+				C4A750F97D05E97511078B008ECC4153 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyUserDefaults;
+			productName = SwiftyUserDefaults;
+			productReference = 89E91A16D240C5FF6149FE38C49E2596 /* SwiftyUserDefaults.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F185187DA190A635FA17C5AB9BE107E2 /* Pods-NghiaDigitalClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE4E25E7E29B28C79168841D34E8DF2E /* Build configuration list for PBXNativeTarget "Pods-NghiaDigitalClock" */;
+			buildPhases = (
+				C598445C889E1EEE9606E51049BEBE3A /* Headers */,
+				1EDED4EF7F8649F7345A0DDC165C57F7 /* Sources */,
+				40243EB21774B7D1EEC5B9D5446222B7 /* Frameworks */,
+				76178DE75BE88714A73059773935A89F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCA3674E6DF706FD8A4B16E66C4F6A40 /* PBXTargetDependency */,
+				4ADE8A2FCCB7B6991B05523C8BEB2287 /* PBXTargetDependency */,
+				04F5EB63CB36E93795508FC10967D9BA /* PBXTargetDependency */,
 			);
 			name = "Pods-NghiaDigitalClock";
 			productName = "Pods-NghiaDigitalClock";
-			productReference = 607AD7108AAD83A872FE0B7A1D93103E /* Pods_NghiaDigitalClock.framework */;
+			productReference = D31AA16D60553754F7F84F30195B443C /* Pods_NghiaDigitalClock.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -196,18 +399,34 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 4D88DE664E644CDA54D36A5770C1BC9D /* Products */;
+			productRefGroup = 5B71F491723DCCAFF24EFD22AE10D3F7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				80DD7DA7ACB32945A0AE792574BE286F /* Pods-NghiaDigitalClock */,
-				7F67C5F2614153DE66A9DBB258437DC7 /* SwiftLint */,
+				F185187DA190A635FA17C5AB9BE107E2 /* Pods-NghiaDigitalClock */,
+				2CC05E606770313C5F2360DBC4D32CD2 /* SwiftLint */,
+				C032AF8EDBB2B10C47D1DEA46D435AD7 /* SwiftyUserDefaults */,
+				489AB11F9B55022F030F90C900E3FF60 /* UIColor_Hex_Swift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		89B49B36292231253EF1CADF06914BAF /* Resources */ = {
+		76178DE75BE88714A73059773935A89F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4A750F97D05E97511078B008ECC4153 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F284836FE0622B0CAFF35F97F52970D1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -217,58 +436,102 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EAED17D31CFDF5F1794D82EA85FA0C0B /* Sources */ = {
+		1EDED4EF7F8649F7345A0DDC165C57F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7C3D09485A080EE0429EC9BA5B1DD9A /* Pods-NghiaDigitalClock-dummy.m in Sources */,
+				A3DA7802BACD58930BD2189F61BF39F7 /* Pods-NghiaDigitalClock-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0C74029F6233341590FB68B5DDE2F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2276DC9D7849C5C7D6BD6B902451D473 /* Defaults+Observing.swift in Sources */,
+				7460A8528E1A47D101B0B28C4A29588D /* Defaults+StringToBool.swift in Sources */,
+				C98F1B70173E46DA57C5D3C9DC7708B2 /* Defaults+Subscripts.swift in Sources */,
+				174298A645AEEA691A9BC8EC22BC1919 /* Defaults.swift in Sources */,
+				D794D540CE626D6A2FE8741DA48AF8AE /* DefaultsBridges.swift in Sources */,
+				DBB7BFB2335F5014EBE3333CF3543520 /* DefaultsKeys.swift in Sources */,
+				143F3A4348A769E13C5EEC7362DD37C5 /* DefaultsObserver.swift in Sources */,
+				3751D05CD33785D78009B24D040B7C27 /* DefaultsSerializable+BuiltIns.swift in Sources */,
+				85EB4E5E311AFF6D4DEAC6AC89A9B783 /* DefaultsSerializable.swift in Sources */,
+				17242177A15C0BA5EE3402542A5DCE4A /* OptionalType.swift in Sources */,
+				8AA35A7DE01F1FDFC414D4FADDFD16E9 /* SwiftyUserDefaults-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E17082119ECF69E5C7E29B7C49EBF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C32C43F87AE01FB62BD1A11098DBF55 /* StringExtension.swift in Sources */,
+				F4DD801178BAF8CF4A24066A42ED9D69 /* UIColor_Hex_Swift-dummy.m in Sources */,
+				4E988D66B19209930932147B67849E46 /* UIColorExtension.swift in Sources */,
+				A834531BBFB52A8D7D76BCEC27561C4C /* UIColorInputError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CA23715D7B08A44C37499652BA0D0D0E /* PBXTargetDependency */ = {
+		04F5EB63CB36E93795508FC10967D9BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIColor_Hex_Swift;
+			target = 489AB11F9B55022F030F90C900E3FF60 /* UIColor_Hex_Swift */;
+			targetProxy = 036C444896C49F4C86A1FA1749F2AB85 /* PBXContainerItemProxy */;
+		};
+		4ADE8A2FCCB7B6991B05523C8BEB2287 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyUserDefaults;
+			target = C032AF8EDBB2B10C47D1DEA46D435AD7 /* SwiftyUserDefaults */;
+			targetProxy = 31294095855F1CE3289BE7568AC6A5CE /* PBXContainerItemProxy */;
+		};
+		FCA3674E6DF706FD8A4B16E66C4F6A40 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftLint;
-			target = 7F67C5F2614153DE66A9DBB258437DC7 /* SwiftLint */;
-			targetProxy = 6A419793DDAE6E98DF329324244F2B85 /* PBXContainerItemProxy */;
+			target = 2CC05E606770313C5F2360DBC4D32CD2 /* SwiftLint */;
+			targetProxy = 7998BEF58E6B0E78D617DC74F0D72DE7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		11A11CA3A0817BF22EBF0F81F6DD260C /* Release */ = {
+		004D30519A8CB2870F82DE3D37288932 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89F85ACF3D78B39506B75103B4694B36 /* SwiftLint.xcconfig */;
+			baseConfigurationReference = 113100B6995EEFD73BEA8DDF0A300586 /* SwiftyUserDefaults.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyUserDefaults/SwiftyUserDefaults-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyUserDefaults/SwiftyUserDefaults-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyUserDefaults/SwiftyUserDefaults.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyUserDefaults;
+				PRODUCT_NAME = SwiftyUserDefaults;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		16B284CD0B57B19B99916C6C7C52A259 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89F85ACF3D78B39506B75103B4694B36 /* SwiftLint.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		3C73BDAC02BF6A4D61D6D97D384D8842 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -330,9 +593,47 @@
 			};
 			name = Release;
 		};
-		58BFE1A50A6AD8DE0C9D5F21B0963B30 /* Release */ = {
+		48CB4D8FE23380F241A3E603A4A15840 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 497AD7199053958E20F3D3EF8FF8EDF2 /* Pods-NghiaDigitalClock.release.xcconfig */;
+			baseConfigurationReference = F1037C9B633737BFEF752800A0EFB97F /* Pods-NghiaDigitalClock.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NghiaDigitalClock/Pods-NghiaDigitalClock-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NghiaDigitalClock/Pods-NghiaDigitalClock.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		551F42AA63E990F372F0FDB0299981E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC3590B712845081DC79B7E8261C5978 /* Pods-NghiaDigitalClock.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -368,6 +669,92 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		6A83607827C14DD1DC792CCB2D05F206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 113100B6995EEFD73BEA8DDF0A300586 /* SwiftyUserDefaults.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyUserDefaults/SwiftyUserDefaults-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyUserDefaults/SwiftyUserDefaults-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyUserDefaults/SwiftyUserDefaults.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyUserDefaults;
+				PRODUCT_NAME = SwiftyUserDefaults;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87B6DA63FB72D2AD1C4E7CC8DB29CB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81EE96C1D4CF2E248FAF1753A3EA3F8E /* UIColor_Hex_Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift.modulemap";
+				PRODUCT_MODULE_NAME = UIColor_Hex_Swift;
+				PRODUCT_NAME = UIColor_Hex_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		98A3451008098D09FF9D4706D719CBE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3EFA663D0B0815B428F641065A35BE8 /* SwiftLint.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		AB09B621ED251839D4FA17E44F361111 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -433,12 +820,27 @@
 			};
 			name = Debug;
 		};
-		AF4434FBCBDEFE75D5AE7D05FD2D1258 /* Debug */ = {
+		E42C8D7AD861EE84281AB9435495E117 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F27D1AB35063DC32D704974CC89F9CC /* Pods-NghiaDigitalClock.debug.xcconfig */;
+			baseConfigurationReference = E3EFA663D0B0815B428F641065A35BE8 /* SwiftLint.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA4AFD9C0B61C1ECF2035E0D99793C07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81EE96C1D4CF2E248FAF1753A3EA3F8E /* UIColor_Hex_Swift.xcconfig */;
+			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -448,37 +850,37 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NghiaDigitalClock/Pods-NghiaDigitalClock-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NghiaDigitalClock/Pods-NghiaDigitalClock.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift.modulemap";
+				PRODUCT_MODULE_NAME = UIColor_Hex_Swift;
+				PRODUCT_NAME = UIColor_Hex_Swift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		33BD9716792D4721E68A6F83FB2C25FC /* Build configuration list for PBXNativeTarget "Pods-NghiaDigitalClock" */ = {
+		0F1F270EFC37CBB3235A4C4B68A2B8CC /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF4434FBCBDEFE75D5AE7D05FD2D1258 /* Debug */,
-				58BFE1A50A6AD8DE0C9D5F21B0963B30 /* Release */,
+				98A3451008098D09FF9D4706D719CBE4 /* Debug */,
+				E42C8D7AD861EE84281AB9435495E117 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -492,11 +894,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A0335762BA853BE787E292D9D7424EE0 /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
+		4E3F5B7CFC29ADB5644E1B550324ABCE /* Build configuration list for PBXNativeTarget "UIColor_Hex_Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				16B284CD0B57B19B99916C6C7C52A259 /* Debug */,
-				11A11CA3A0817BF22EBF0F81F6DD260C /* Release */,
+				87B6DA63FB72D2AD1C4E7CC8DB29CB03 /* Debug */,
+				FA4AFD9C0B61C1ECF2035E0D99793C07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DA87F4A38E07FEA56F4E2A9C0E235FF /* Build configuration list for PBXNativeTarget "SwiftyUserDefaults" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A83607827C14DD1DC792CCB2D05F206 /* Debug */,
+				004D30519A8CB2870F82DE3D37288932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE4E25E7E29B28C79168841D34E8DF2E /* Build configuration list for PBXNativeTarget "Pods-NghiaDigitalClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48CB4D8FE23380F241A3E603A4A15840 /* Debug */,
+				551F42AA63E990F372F0FDB0299981E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

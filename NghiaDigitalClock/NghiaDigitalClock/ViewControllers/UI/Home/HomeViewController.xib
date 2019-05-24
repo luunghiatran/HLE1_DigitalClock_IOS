@@ -19,6 +19,10 @@
             <connections>
                 <outlet property="dateLabel" destination="0CU-O6-Sf9" id="Nl1-xE-ntD"/>
                 <outlet property="secondLabel" destination="a6m-Ed-amY" id="udG-SP-DBs"/>
+                <outlet property="showAlarmButton" destination="NZY-Lo-0Tk" id="WzD-ui-zZC"/>
+                <outlet property="showSettingButton" destination="haK-Eb-5EL" id="GaX-iv-HRe"/>
+                <outlet property="showSkinButton" destination="LKo-9h-2er" id="mMM-QO-lQh"/>
+                <outlet property="showTimerButton" destination="ajJ-ja-52i" id="Bdv-Tu-Y3j"/>
                 <outlet property="timeLabel" destination="emI-aT-WXl" id="6rG-dC-d3i"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outlet property="weekDayLabel" destination="PKO-el-qMh" id="Vln-A8-OZx"/>
@@ -75,18 +79,11 @@
                     <color key="textColor" red="0.32694959639999999" green="0.98217278720000001" blue="0.380687952" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NZY-Lo-0Tk" userLabel="Alarm">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NZY-Lo-0Tk" userLabel="Alarm">
                     <rect key="frame" x="20" y="325" width="52" height="30"/>
-                    <state key="normal" image="ic_notification">
-                        <attributedString key="attributedTitle">
-                            <fragment content="OFF">
-                                <attributes>
-                                    <color key="NSColor" red="0.3269495964050293" green="0.98217278718948364" blue="0.38068795204162598" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <font key="NSFont" size="14" name=".AppleSystemUIFont"/>
-                                    <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                </attributes>
-                            </fragment>
-                        </attributedString>
+                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                    <state key="normal" title="OFF" image="ic_notification">
+                        <color key="titleColor" red="0.3269495964050293" green="0.98217278718948364" blue="0.38068795204162598" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                 </button>
             </subviews>

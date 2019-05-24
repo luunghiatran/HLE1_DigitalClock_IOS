@@ -1,14 +1,15 @@
 //
-//  ClockType.swift
+//  Constant.swift
 //  NghiaDigitalClock
 //
-//  Created by NghiaTL on 5/23/19.
+//  Created by NghiaTL on 5/24/19.
 //  Copyright © 2019 BTS. All rights reserved.
 //
 
 import Foundation
+import SwiftyUserDefaults
 
-enum ClockType: String {
+enum ClockType: String, DefaultsSerializable {
     case red = "#f44336"
     case pink = "#e91e63"
     case purple = "#9c27b0"
@@ -31,3 +32,5 @@ enum ClockType: String {
     
     static var allvalues = [red, pink, purple, deepPurple, indigo, blue, lightBlue, cyan, teal, green, lightGreen, lime, yellow, amber, orange, deepOrange, brown, grey, blueGrey]
 }
+
+typealias SkinSelectHandler = (UIViewController, ClockType) -> (Void)

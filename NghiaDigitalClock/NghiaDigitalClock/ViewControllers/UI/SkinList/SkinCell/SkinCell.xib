@@ -18,37 +18,46 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SkinCell" customModule="NghiaDigitalClock" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="292" height="152"/>
+            <rect key="frame" x="0.0" y="0.0" width="383" height="181"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="292" height="152"/>
+                <rect key="frame" x="0.0" y="0.0" width="383" height="181"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7gj-6Z-hu3">
-                        <rect key="frame" x="0.0" y="0.0" width="292" height="152"/>
+                        <rect key="frame" x="0.0" y="0.0" width="383" height="181"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10:36" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="msg-dn-Swo" userLabel="Time">
-                                <rect key="frame" x="58.5" y="30.5" width="175" height="91"/>
+                                <rect key="frame" x="104" y="45" width="175" height="91"/>
                                 <fontDescription key="fontDescription" name="Digital-7" family="Digital-7" pointSize="100"/>
                                 <color key="textColor" red="0.32694959639999999" green="0.98217278720000001" blue="0.380687952" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MAY 14, 2019" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l3H-qr-BFJ" userLabel="Day">
-                                <rect key="frame" x="146.5" y="12" width="87" height="18.5"/>
+                                <rect key="frame" x="192" y="26.5" width="87" height="18.5"/>
                                 <fontDescription key="fontDescription" name="Digital-7" family="Digital-7" pointSize="20"/>
                                 <color key="textColor" red="0.32694959639999999" green="0.98217278720000001" blue="0.380687952" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TUE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4hC-ag-uEa" userLabel="Week Day">
-                                <rect key="frame" x="58.5" y="12" width="28" height="18.5"/>
+                                <rect key="frame" x="104" y="26.5" width="28" height="18.5"/>
                                 <fontDescription key="fontDescription" name="Digital-7" family="Digital-7" pointSize="20"/>
                                 <color key="textColor" red="0.32694959639999999" green="0.98217278720000001" blue="0.380687952" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_checked" translatesAutoresizingMaskIntoConstraints="NO" id="Td0-md-LXg">
+                                <rect key="frame" x="338" y="10" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="78e-Lj-Yk3"/>
+                                    <constraint firstAttribute="width" constant="35" id="yCz-Ua-tr2"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Td0-md-LXg" secondAttribute="trailing" constant="10" id="K9T-5v-037"/>
                             <constraint firstItem="msg-dn-Swo" firstAttribute="top" secondItem="l3H-qr-BFJ" secondAttribute="bottom" id="Syk-To-Lh6"/>
+                            <constraint firstItem="Td0-md-LXg" firstAttribute="top" secondItem="7gj-6Z-hu3" secondAttribute="top" constant="10" id="TbV-iS-Zxi"/>
                             <constraint firstItem="msg-dn-Swo" firstAttribute="top" secondItem="4hC-ag-uEa" secondAttribute="bottom" id="a8B-6V-6J3"/>
                             <constraint firstItem="4hC-ag-uEa" firstAttribute="leading" secondItem="msg-dn-Swo" secondAttribute="leading" id="fBK-BX-DVs"/>
                             <constraint firstItem="msg-dn-Swo" firstAttribute="centerX" secondItem="7gj-6Z-hu3" secondAttribute="centerX" id="faL-eK-Oh0"/>
@@ -66,13 +75,17 @@
                 <constraint firstItem="7gj-6Z-hu3" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="oiX-Ig-1o1"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
-            <size key="customSize" width="292" height="152"/>
+            <size key="customSize" width="383" height="181"/>
             <connections>
+                <outlet property="checkedImage" destination="Td0-md-LXg" id="p3c-vK-oCV"/>
                 <outlet property="dateLabel" destination="l3H-qr-BFJ" id="vEH-tR-b4R"/>
                 <outlet property="timeLabel" destination="msg-dn-Swo" id="Q1w-TI-1H7"/>
                 <outlet property="weekDayLabel" destination="4hC-ag-uEa" id="deY-BP-S2o"/>
             </connections>
-            <point key="canvasLocation" x="30.434782608695656" y="43.526785714285715"/>
+            <point key="canvasLocation" x="96.376811594202906" y="53.236607142857139"/>
         </collectionViewCell>
     </objects>
+    <resources>
+        <image name="ic_checked" width="30" height="30"/>
+    </resources>
 </document>

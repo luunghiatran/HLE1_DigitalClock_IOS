@@ -1,16 +1,24 @@
 PODS:
   - SwiftLint (0.32.0)
+  - SwiftyUserDefaults (4.0.0)
+  - UIColor_Hex_Swift (5.1.0)
 
 DEPENDENCIES:
   - SwiftLint
+  - SwiftyUserDefaults
+  - UIColor_Hex_Swift (~> 5.1.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - SwiftLint
+    - SwiftyUserDefaults
+    - UIColor_Hex_Swift
 
 SPEC CHECKSUMS:
   SwiftLint: 009a898ef2a1c851f45e1b59349bf6ff2ddc990d
+  SwiftyUserDefaults: 6a1951df1daa19337862b677dd9a4b9bd4c288cd
+  UIColor_Hex_Swift: 8be7432edacb7fa91c78aa05ef3c30b66e4f9415
 
-PODFILE CHECKSUM: 9ad95897b03298fb9d7ab6663166e12977ed9ea7
+PODFILE CHECKSUM: c1123c04d0e92cb6c2b6b9b1478f1d1fcda4a425
 
 COCOAPODS: 1.6.2
