@@ -15,8 +15,7 @@ extension UIButton {
         if image != nil {
             self.setImage(image, for: .normal)
             self.tintColor = color
-            
-            self.titleLabel?.textColor = color
+            self.setTitleColor(color, for: .normal)
         }
     }
     

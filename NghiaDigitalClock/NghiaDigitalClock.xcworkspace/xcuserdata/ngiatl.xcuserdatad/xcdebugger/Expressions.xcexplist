@@ -10,5 +10,13 @@
             </PersistentString>
          </PersistentStrings>
       </ContextState>
+      <ContextState
+         contextName = "UIButton.renderImage(withColor:):UIButton+Extensions.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "titleLable?.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
    </ContextStates>
 </VariablesViewState>

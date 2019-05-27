@@ -22,7 +22,8 @@ class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        updateUI()
+        updateUITime()
+        updateUIColor()
         setUpTimer()
     }
 
@@ -38,11 +39,6 @@ extension HomeViewController {
         Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { _ in
             self.updateUITime()
         }
-    }
-
-    private func updateUI() {
-        updateUITime()
-        updateUIColor()
     }
 
     private func updateUITime() {

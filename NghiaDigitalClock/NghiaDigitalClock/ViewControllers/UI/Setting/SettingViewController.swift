@@ -36,25 +36,31 @@ class SettingViewController: UIViewController {
         //print(itemList[0][0]) // ["Display Settings", "ic_display_settings"]
         //print(itemList[0][0][0])
     }
-    
-    func initUI() {
+}
+
+// === IBAction ===
+extension SettingViewController {
+    @IBAction func backButtonTouch( _ sender: Any) {
+        self.navigationController?.dismiss(animated: true, completion: nil) // Clear all Stack
+    }
+}
+
+// === Function ===
+extension SettingViewController {
+    private func initUI() {
         self.title = "Setting"
         
         let backBarButton = UIBarButtonItem(image: UIImage(named: "ic_arrow_back"), style: .done, target: self, action: #selector(self.backButtonTouch(_:)))
         self.navigationItem.setLeftBarButton(backBarButton, animated: true)
     }
     
-    func initItemTableView() {
+    private func initItemTableView() {
         menuTableView.register(UINib(nibName: "MenuCell", bundle: nil), forCellReuseIdentifier: "MenuCell")
         menuTableView.dataSource = self
         menuTableView.delegate = self
         menuTableView.separatorStyle = .none
         // Header
         menuTableView.register(UINib(nibName: "HeaderCell", bundle: nil), forHeaderFooterViewReuseIdentifier: "HeaderCell")
-    }
-
-    @IBAction func backButtonTouch( _ sender: Any) {
-        self.navigationController?.dismiss(animated: true, completion: nil) // Clear all Stack
     }
 }
 

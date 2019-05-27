@@ -20,13 +20,33 @@ class SkinListViewController: UIViewController {
         return SkinListViewController(nibName: "SkinListViewController", bundle: nil) as SkinListViewController
     }
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        initView()
+    @discardableResult
+    public func onSelectedSkinHandler(_ handler: @escaping SkinSelectHandler) -> SkinListViewController {
+        self.selectedSkinHandler = handler
+        return self
     }
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        initView()
+    }
+}
+
+extension SkinListViewController {
+    @IBAction func backButtonTouch( _ sender: Any) {
+        self.navigationController?.dismiss(animated: true, completion: nil) // Clear all Stack
+    }
+}
+
+extension SkinListViewController {
+    
     private func initView() {
+        // === Title ===
+        self.title = "Skin"
+        
+        let backBarButton = UIBarButtonItem(image: UIImage(named: "ic_arrow_back"), style: .done, target: self, action: #selector(self.backButtonTouch(_:)))
+        self.navigationItem.setLeftBarButton(backBarButton, animated: true)
+        
         // === Checked Index ===
         let selectedClockType = AppData.getSelectedClockType()
         var index = 0
@@ -49,7 +69,6 @@ class SkinListViewController: UIViewController {
         layout.minimumLineSpacing = 10  // Margin Horizone Space
         skinCollectionView.collectionViewLayout = layout
     }
-    
 }
 
 extension SkinListViewController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
@@ -94,15 +113,4 @@ extension SkinListViewController: UICollectionViewDataSource, UICollectionViewDe
             self.navigationController?.dismiss(animated: true, completion: nil)
         }
     }
-    
-}
-
-extension SkinListViewController {
-    
-    @discardableResult
-    public func onSelectedSkinHandler(_ handler: @escaping SkinSelectHandler) -> SkinListViewController {
-        self.selectedSkinHandler = handler
-        return self
-    }
-    
 }
