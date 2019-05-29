@@ -16,12 +16,12 @@
 		594646F8228A68F4000DB734 /* digital-7 (italic).ttf in Resources */ = {isa = PBXBuildFile; fileRef = 594646F4228A68F4000DB734 /* digital-7 (italic).ttf */; };
 		594646F9228A68F4000DB734 /* digital-7 (mono).ttf in Resources */ = {isa = PBXBuildFile; fileRef = 594646F5228A68F4000DB734 /* digital-7 (mono).ttf */; };
 		594646FA228A68F4000DB734 /* digital-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 594646F6228A68F4000DB734 /* digital-7.ttf */; };
-		CA05A75E2295583E00DBFE3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA05A75D2295583E00DBFE3B /* Assets.xcassets */; };
 		CA066A6F22964AE100BE5D61 /* HeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA066A6C22964AE100BE5D61 /* HeaderCell.xib */; };
 		CA066A7022964AE100BE5D61 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA066A6D22964AE100BE5D61 /* HeaderCell.swift */; };
 		CA066A7B229694BD00BE5D61 /* SkinCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA066A79229694BD00BE5D61 /* SkinCell.swift */; };
 		CA066A7C229694BD00BE5D61 /* SkinCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA066A7A229694BD00BE5D61 /* SkinCell.xib */; };
 		CA066A7F2296B01400BE5D61 /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA066A7E2296B01400BE5D61 /* UIColorExt.swift */; };
+		CA070A03229E6AE8007E6958 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA070A02229E6AE8007E6958 /* Assets.xcassets */; };
 		CA0A45DE2293A612006E3C1E /* SkinListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0A45DC2293A612006E3C1E /* SkinListViewController.swift */; };
 		CA0A45DF2293A612006E3C1E /* SkinListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA0A45DD2293A612006E3C1E /* SkinListViewController.xib */; };
 		CA0A45E32293A68C006E3C1E /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0A45E12293A68C006E3C1E /* SettingViewController.swift */; };
@@ -46,12 +46,12 @@
 		594646F5228A68F4000DB734 /* digital-7 (mono).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7 (mono).ttf"; sourceTree = "<group>"; };
 		594646F6228A68F4000DB734 /* digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7.ttf"; sourceTree = "<group>"; };
 		C0A3D245C5EDF87293A014E4 /* Pods_NghiaDigitalClock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NghiaDigitalClock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA05A75D2295583E00DBFE3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 		CA066A6C22964AE100BE5D61 /* HeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderCell.xib; sourceTree = "<group>"; };
 		CA066A6D22964AE100BE5D61 /* HeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
 		CA066A79229694BD00BE5D61 /* SkinCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinCell.swift; sourceTree = "<group>"; };
 		CA066A7A229694BD00BE5D61 /* SkinCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SkinCell.xib; sourceTree = "<group>"; };
 		CA066A7E2296B01400BE5D61 /* UIColorExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
+		CA070A02229E6AE8007E6958 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA0A45DC2293A612006E3C1E /* SkinListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinListViewController.swift; sourceTree = "<group>"; };
 		CA0A45DD2293A612006E3C1E /* SkinListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SkinListViewController.xib; sourceTree = "<group>"; };
 		CA0A45E12293A68C006E3C1E /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
@@ -87,7 +87,6 @@
 		594646CB228A6258000DB734 = {
 			isa = PBXGroup;
 			children = (
-				CA05A75D2295583E00DBFE3B /* Assets.xcassets */,
 				594646D6228A6258000DB734 /* NghiaDigitalClock */,
 				594646D5228A6258000DB734 /* Products */,
 				C84C3255685C74227CD1EEAE /* Pods */,
@@ -106,6 +105,7 @@
 		594646D6228A6258000DB734 /* NghiaDigitalClock */ = {
 			isa = PBXGroup;
 			children = (
+				CA070A02229E6AE8007E6958 /* Assets.xcassets */,
 				CA0D25542297A87000C3BFEA /* Data */,
 				CA066A7D2296AEEC00BE5D61 /* Util */,
 				CA066A75229688B000BE5D61 /* Model */,
@@ -327,7 +327,6 @@
 				594646F9228A68F4000DB734 /* digital-7 (mono).ttf in Resources */,
 				CA0A45E42293A68C006E3C1E /* SettingViewController.xib in Resources */,
 				CA066A7C229694BD00BE5D61 /* SkinCell.xib in Resources */,
-				CA05A75E2295583E00DBFE3B /* Assets.xcassets in Resources */,
 				CA18938A229408B500D1F721 /* MenuCell.xib in Resources */,
 				594646E2228A625A000DB734 /* LaunchScreen.storyboard in Resources */,
 				594646F8228A68F4000DB734 /* digital-7 (italic).ttf in Resources */,
@@ -335,6 +334,7 @@
 				594646FA228A68F4000DB734 /* digital-7.ttf in Resources */,
 				594646F7228A68F4000DB734 /* digital-7 (mono italic).ttf in Resources */,
 				594646F0228A6336000DB734 /* HomeViewController.xib in Resources */,
+				CA070A03229E6AE8007E6958 /* Assets.xcassets in Resources */,
 				CA066A6F22964AE100BE5D61 /* HeaderCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
